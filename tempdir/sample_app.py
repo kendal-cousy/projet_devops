@@ -7,7 +7,7 @@ sample = Flask(__name__)
 def main():
 	return render_template("index.html")
 if __name__ == "__main__":
-	sample.run(host ="localhost", port =5050)
+	sample.run(host ="localhost", port =8080)
 
 
 
